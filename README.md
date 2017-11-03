@@ -49,7 +49,8 @@ for (int k = x; k <= xend; k++)
 	glVertex2i(x, y);
 }
 ```
-2. Perbaikan Tidak berjalan ketika x1 = x2
+2. Perbaikan Titik awal dan akhir pada kasus Tidak berjalan ketika x1 = x2 dan garis vertical dan horizontal
+
 ```
 //tentukan titik awal dan akhir
 if (x1 > x2) {
@@ -58,7 +59,7 @@ if (x1 > x2) {
 	y = y2;
 	xend = x1;
 }
-	else
+else
 {
 
 	if( (x1 == x2 && y1 < y2) || (y1 == y2 && x1 < x2) )
@@ -97,6 +98,9 @@ if (x1 > x2) {
 ```
 ## Built With
 * Microsoft Visual Studio Community 2015
+
+## Bug
+* [Create issues](https://github.com/yoloproject/Algoritma-Lingkaran-Bresenham/issues)
 
 ## Contributors
 * [Galang Rambu Anarki](https://dinus.ac.id/mahasiswa/A11.2015.08929)
