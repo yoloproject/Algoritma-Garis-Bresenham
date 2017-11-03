@@ -1,4 +1,4 @@
-# Aplikasi Garis Dengan Algoritma DDA
+# Aplikasi Garis Dengan Algoritma Bresenham
 Pembuatan aplikasi Garis menggunakan Algoritma Bresenham dengan menggunakan libray openGL dan Glut untuk membentuk sebuah garis.
 
 ## Deskripsi
